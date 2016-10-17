@@ -13,7 +13,7 @@ Dir.glob("spec/steps/**/*steps.rb"){|f| load f, true}
 
 # load basic_steps.rb
 gem_path = Gem.loaded_specs['turnip_support'].full_gem_path
-Dir.glob("#{gem_path}/lib/spec/steps/basic_steps.rb")
+load "#{gem_path}/lib/spec/steps/basic_steps.rb"
 
 
 Capybara::Screenshot.class_eval do

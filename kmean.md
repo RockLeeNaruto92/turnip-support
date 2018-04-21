@@ -104,7 +104,7 @@ m: số phần từ của nhóm
 #### Sơ đồ khối
 - Nói như trên thì hơi khó hiểu, khó hình dung nên có thể vẽ bằng sơ đồ khối thì sẽ dễ hình dung được flow hơn.
 
-<img src='https://www.researchgate.net/profile/Guntur_Putra/publication/257923155/figure/fig3/AS:297564655112198@1447956350138/K-means-algorithm-flowchart.png'>
+<img src='https://github.com/ThuBM/turnip-support/blob/kmean/kmean.png'>
 
 ## Ví dụ:
 
@@ -216,6 +216,8 @@ Bần tăng sẽ chia 6 điểm đã cho thành 2 nhóm như sau:
 Group1: [P1{x: 127, y: 933}, P2{x: 138, y: 741}, P6{x: 369, y: 725}]
 Group2: [P3{x: 846, y: 391}, P4{x: 876, y: 879}, P5{x: 980, y: 580}]
 ```
+
+Bần tăng đã implement thử kmean bằng ruby và đặt source_code tại [đây](https://github.com/ThuBM/turnip-support/blob/kmean/kmean.rb) để thí chủ nào có hứng thú thì tham khảo.
 
 ## Ứng dụng thực tế của Kmean
 
